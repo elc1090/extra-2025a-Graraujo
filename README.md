@@ -2,7 +2,7 @@
 
 Screenshot do projeto: em breve
 
-Acesso: em breve
+Acesso: [Gerador de Atas de TCC](https://elc1090.github.io/extra-2025a-Graraujo/)
 
 ### Desenvolvedora
 Giulia Rodrigues de Araújo - Ciência da Computação (UFSM)
