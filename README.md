@@ -70,8 +70,5 @@ Além disso, o sistema valida os campos em tempo real e só permite gerar PDF ap
 
 ---
 
-
----
-
 Projeto entregue para a disciplina de [Desenvolvimento de Software para a Web](https://github.com/andreainfufsm/elc1090-2025a) – UFSM – 2025a  
 Repositório: [extra-2025a-Graraujo](https://github.com/andreainfufsm/extra-2025a-Graraujo)
