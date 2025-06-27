@@ -1,70 +1,77 @@
-# Projeto extra: Formulários de avaliação e ata de TCC
+# Projeto extra: Gerador de Atas de TCC – Ciência da Computação e Sistemas de Informação
 
-Screenshot do projeto: ![image](https://github.com/user-attachments/assets/54f4c1d8-7b84-4127-82c6-556f2f0891bf)
+![Screenshot do projeto](https://github.com/user-attachments/assets/54f4c1d8-7b84-4127-82c6-556f2f0891bf)
 
-
-Acesso: [Gerador de Atas de TCC](https://elc1090.github.io/extra-2025a-Graraujo/)
-
-### Desenvolvedora
-Giulia Rodrigues de Araújo - Ciência da Computação (UFSM)
+🔗 **Acesso:** [Gerador de Atas de TCC](https://elc1090.github.io/extra-2025a-Graraujo/)
 
 ---
 
-### Produto
+### 👩‍💻 Desenvolvedora
 
-O projeto consiste em um sistema de formulários responsivos para avaliação de TCC. A aplicação permite que cada professor preencha uma ficha individual de avaliação, e que o orientador gere uma ata com a nota final do aluno.
-
-As principais funcionalidades incluem:
-- Formulário web responsivo para preenchimento das notas;
-- Assinatura digital feita à mão via canvas;
-- Geração de PDF contendo todos os dados preenchidos e a assinatura;
-- Geração de link com cabeçalho previamente preenchido, para facilitar o compartilhamento pelo orientador com os avaliadores.
+**Giulia Rodrigues de Araújo**  
+Graduanda em Ciência da Computação – UFSM
 
 ---
 
-### Desenvolvimento
+### 📝 Produto
 
-A aplicação foi desenvolvida com foco em funcionalidade, praticidade e compatibilidade. Foi utilizado o Bootstrap para facilitar a construção de um layout responsivo e adaptável. O `jspdf` permitiu gerar documentos PDF de forma eficiente, diretamente no navegador. 
+Este projeto é uma aplicação web que gera **atas de apresentação de TCC** dos cursos de **Ciência da Computação (CC)** e **Sistemas de Informação (SI)**, da UFSM.
 
-O sistema também conta com um recurso de canvas para que os professores desenhem suas assinaturas, que são incorporadas automaticamente no PDF final.
+A plataforma permite que os membros da banca preencham os dados da ata de forma prática e organizada, com foco em usabilidade e agilidade no dia da banca.
 
-A ideia de gerar um link com os campos principais já preenchidos foi pensada para otimizar o fluxo do orientador na organização das avaliações.
+#### Funcionalidades:
+- Formulários web responsivos para preenchimento dos dados da ata
+- Assinatura desenhada à mão via **canvas**
+- Geração de **PDF** contendo os dados e as assinaturas
+- Geração de **link com cabeçalho pré-preenchido** via query string (`?curso=...`)
+- Página inicial com escolha do curso (CC ou SI)
 
 ---
 
-#### Tecnologias
+### ⚙️ Desenvolvimento
+
+A aplicação foi construída com **HTML, CSS e JavaScript puro**, utilizando a biblioteca **Bootstrap 5** para responsividade e estilo. A geração de PDFs foi feita com **jsPDF**, incluindo assinatura capturada em canvas.
+
+Cada curso possui um formulário específico (`atacc.html` e `atasi.html`) e os dados podem ser enviados via URL para facilitar o compartilhamento entre orientador e banca.
+
+Além disso, o sistema valida os campos em tempo real e só permite gerar PDF após todos os campos obrigatórios estarem preenchidos.
+
+---
+
+### 💻 Tecnologias utilizadas
 
 - HTML5
 - CSS3
 - JavaScript
+- Bootstrap 5
 - jQuery
-- Bootstrap
 - jsPDF
-- jsPDF-Autotable
-- HTML5 Canvas
+- HTML5 Canvas API
 
 ---
 
-#### Ambiente de desenvolvimento
+### 🛠️ Ambiente de desenvolvimento
 
 - Visual Studio Code
   - Extensões: Live Server, Prettier
 - Google Chrome (testes)
-- GitHub (repositório e versionamento)
+- GitHub (repositório e Pages para deploy)
 
 ---
 
-#### Referências e créditos
+### 📚 Referências e créditos
 
-- [Documentação do jsPDF](https://github.com/parallax/jsPDF)
-- [W3Schools - Canvas Drawing](https://www.w3schools.com/html/html5_canvas.asp)
+- [jsPDF Documentation](https://github.com/parallax/jsPDF)
 - [Bootstrap](https://getbootstrap.com/)
 - [Stack Overflow](https://stackoverflow.com/)
-- ChatGPT (OpenAI) – apoio na estruturação de funcionalidades e solução de bugs
-- Inspiração em formulários reais utilizados por bancas de TCC
+- [MDN Web Docs – Canvas API](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API)
+- ChatGPT (OpenAI) – ajuda com estrutura, JS e validações
+- Baseado nos modelos de ata utilizados pela UFSM no Centro de Tecnologia
 
 ---
 
-Projeto entregue para a disciplina de [Desenvolvimento de Software para a Web](http://github.com/andreainfufsm/elc1090-2025a) em 2025a
 
-Repositório: [extra-2025a-Graraujo](https://github.com/andreainfufsm/extra-2025a-Graraujo)  
+---
+
+Projeto entregue para a disciplina de [Desenvolvimento de Software para a Web](https://github.com/andreainfufsm/elc1090-2025a) – UFSM – 2025a  
+Repositório: [extra-2025a-Graraujo](https://github.com/andreainfufsm/extra-2025a-Graraujo)
